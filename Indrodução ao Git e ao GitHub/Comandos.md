@@ -34,12 +34,13 @@ git commit -m "Comentário do commit": Para commitar o(s) arquivo(s).
 
 git push origin main: Para exporta os commit para o GitHub.
 
- git clone "link do repositório": Para clonar um repositório do GitHub na pasta atual.
+git clone "link do repositório": Para clonar um repositório do GitHub na pasta atual.
 
-
+git remote add origin "url do repositorio": Serve para Conectar no repositorio do GitHub.
 
 # Ordem:
 
 1. git add.
 2. git commit -m.
-3. git push origin main.
+3. git remote add origin "url do repositorio"
+4. git push origin main.
